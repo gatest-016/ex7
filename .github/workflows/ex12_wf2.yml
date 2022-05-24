@@ -4,6 +4,7 @@ on:
   workflow_dispatch:
     inputs:
       message:
+        required: false
         description: 'call from ui'
 
   # Dependency to a forking workflow
