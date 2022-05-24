@@ -16,4 +16,4 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: msg
-        run: echo "Invoked by dispatch_workflow"
+        run: echo "Invoked by dispatch workflow"
