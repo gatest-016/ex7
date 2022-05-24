@@ -30,7 +30,7 @@ jobs:
           path: output.log
   
   example-job10:
-    name: Save output
+    name: Open output
     runs-on: ubuntu-latest
     steps:
       - name: Download a single artifact
