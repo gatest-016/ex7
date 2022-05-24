@@ -1,6 +1,9 @@
 name: test variables workflow
 on:
   workflow_dispatch
+env:
+  ## Sets environment variable
+  GITHUB_ENV: hi   
 jobs:
   initialize_variable:
     runs-on: ubuntu-latest
