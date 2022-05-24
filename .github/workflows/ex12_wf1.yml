@@ -6,4 +6,4 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: msg
-        run: echo "Invoked by call_workflow"
+        run: echo "Invoked by dispatch workflow"
